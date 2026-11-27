@@ -1,0 +1,4 @@
+# Target runtime is the cluster's Spark 2.4.7. The code uses only stable
+# DataFrame / MLlib APIs and also runs on Spark 3.x and 4.x.
+pyspark==2.4.7
+numpy>=1.16

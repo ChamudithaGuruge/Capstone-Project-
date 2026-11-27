@@ -1,0 +1,19 @@
+# generated data and pipeline outputs
+data/
+out/
+*.parquet
+*.crc
+
+# spark local state
+spark-warehouse/
+metastore_db/
+derby.log
+spark.log
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# os
+.DS_Store
